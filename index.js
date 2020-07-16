@@ -9,6 +9,7 @@ function theBeatlesPlay(musicians, instruments) {
       resArr.push(string);
     }
   }
+  return resArr;
 }
 
 // var musiciansInput = ['bon', 'slug', 'eric clapton']
