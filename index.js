@@ -14,3 +14,27 @@ function theBeatlesPlay(musicians, instruments) {
 
 // var musiciansInput = ['bon', 'slug', 'eric clapton']
 // var instrumentsInput = ['guitar', 'microphone', 'piano']
+
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+
+function johnLennonFacts(facts) {
+  var exclamationString = '';
+  var exclamations = [];
+
+  let n = 0; console.log(facts.length)
+  while (n < facts.length){
+
+    exclamationString = facts[n] + "!!!"
+    exclamations.push(exclamationString)
+    n++;
+
+  }
+  return exclamations
+}
+
+johnLennonFacts(facts)
