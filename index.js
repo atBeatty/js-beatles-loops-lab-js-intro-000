@@ -13,4 +13,3 @@ function theBeatlesPlay(musicians, instruments) {
 
 // var musiciansInput = ['bon', 'slug', 'eric clapton']
 // var instrumentsInput = ['guitar', 'microphone', 'piano']
-
